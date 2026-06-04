@@ -1,65 +1,30 @@
 [
   {
-    "id": "basic_common",
-    "name": "Basic Common",
-    "stats": {
-      "hp": 275,
-      "attack": 12,
-      "defense": 10
-    }
+    "id": "common_emblem", "name": "Basic Common Emblem",
+    "stats": { "hp": 275, "hp_regen": 12, "hybrid_reg": 5 }
   },
   {
-    "id": "tank",
-    "name": "Tank Emblem",
-    "stats": {
-      "hp": 500,
-      "defense": 15,
-      "attack": 0
-    }
+    "id": "tank_emblem", "name": "Custom Tank Emblem",
+    "stats": { "hp": 500, "physical_defense": 15, "magic_defense": 15 }
   },
   {
-    "id": "assassin",
-    "name": "Assassin Emblem",
-    "stats": {
-      "attack": 26,
-      "hp": 0,
-      "defense": 0
-    }
+    "id": "assassin_emblem", "name": "Custom Assassin Emblem",
+    "stats": { "physical_pen": 16, "magic_pen": 16, "physical_attack": 14, "magic_power": 14, "movement_speed": 3 }
   },
   {
-    "id": "mage",
-    "name": "Mage Emblem",
-    "stats": {
-      "attack": 30,
-      "hp": 0,
-      "defense": 0
-    }
+    "id": "mage_emblem", "name": "Custom Mage Emblem",
+    "stats": { "magic_power": 30, "cooldown_reduction": 5, "magic_pen": 8 }
   },
   {
-    "id": "fighter",
-    "name": "Fighter Emblem",
-    "stats": {
-      "hp": 250,
-      "attack": 16,
-      "defense": 8
-    }
+    "id": "fighter_emblem", "name": "Custom Fighter Emblem",
+    "stats": { "spell_vamp": 10, "physical_attack": 16, "magic_power": 16, "physical_defense": 8, "magic_defense": 8 }
   },
   {
-    "id": "support",
-    "name": "Support Emblem",
-    "stats": {
-      "hp": 200,
-      "attack": 0,
-      "defense": 6
-    }
+    "id": "support_emblem", "name": "Custom Support Emblem",
+    "stats": { "healing_effect": 15, "cooldown_reduction": 10, "movement_speed": 6 }
   },
   {
-    "id": "marksman",
-    "name": "Marksman Emblem",
-    "stats": {
-      "attack": 18,
-      "hp": 0,
-      "defense": 0
-    }
+    "id": "marksman_emblem", "name": "Custom Marksman Emblem",
+    "stats": { "attack_speed": 15, "lifesteal": 5, "physical_attack": 14, "magic_power": 14 }
   }
 ]
