@@ -1,32 +1,58 @@
 [
   {
-    "id": "miya",
-    "name": "Miya",
-    "role": ["Marksman"],
+    "id": "hilda",
+    "name": "Hilda",
+    "role": ["Fighter", "Tank"],
     "damage_type": "Physical",
-    "tags": ["Attack Speed", "Critical"],
     "base_stats": {
-      "hp": 2524,
-      "physical_attack": 115,
-      "magic_attack": 0,
-      "physical_defense": 15,
-      "magic_defense": 15,
-      "attack_speed": 1.02
+      "hp": 3445, "mana": 0, "physical_attack": 143, "magic_power": 0,
+      "physical_defense": 45, "magic_defense": 27, "attack_speed": 1.11,
+      "cooldown_reduction": 0, "critical_chance": 0, "movement_speed": 260,
+      "hp_regen": 10.2, "mana_regen": 0, "physical_pen": 0, "magic_pen": 0,
+      "lifesteal": 0, "spell_vamp": 0, "attack_range": 1.8, "resilience": 0,
+      "critical_damage": 200, "crit_dmg_reduction": 0, "healing_effect": 0, "healing_received": 0
     }
   },
   {
-    "id": "eudora",
-    "name": "Eudora",
-    "role": ["Mage"],
+    "id": "gloo",
+    "name": "Gloo",
+    "role": ["Tank"],
     "damage_type": "Magic",
-    "tags": ["Burst"],
     "base_stats": {
-      "hp": 2524,
-      "physical_attack": 112,
-      "magic_attack": 0,
-      "physical_defense": 16,
-      "magic_defense": 15,
-      "attack_speed": 0.80
+      "hp": 2819, "mana": 440, "physical_attack": 120, "magic_power": 0,
+      "physical_defense": 22, "magic_defense": 15, "attack_speed": 1.05,
+      "cooldown_reduction": 0, "critical_chance": 0, "movement_speed": 260,
+      "hp_regen": 9.6, "mana_regen": 3.8, "physical_pen": 0, "magic_pen": 0,
+      "lifesteal": 0, "spell_vamp": 0, "attack_range": 1.6, "resilience": 0,
+      "critical_damage": 200, "crit_dmg_reduction": 0, "healing_effect": 0, "healing_received": 0
+    }
+  },
+  {
+    "id": "layla",
+    "name": "Layla",
+    "role": ["Marksman"],
+    "damage_type": "Physical",
+    "base_stats": {
+      "hp": 2500, "mana": 424, "physical_attack": 125, "magic_power": 0,
+      "physical_defense": 15, "magic_defense": 10, "attack_speed": 1.20,
+      "cooldown_reduction": 0, "critical_chance": 0, "movement_speed": 240,
+      "hp_regen": 6.8, "mana_regen": 3.2, "physical_pen": 0, "magic_pen": 0,
+      "lifesteal": 0, "spell_vamp": 0, "attack_range": 5.0, "resilience": 0,
+      "critical_damage": 200, "crit_dmg_reduction": 0, "healing_effect": 0, "healing_received": 0
+    }
+  },
+  {
+    "id": "gusion",
+    "name": "Gusion",
+    "role": ["Assassin"],
+    "damage_type": "Magic",
+    "base_stats": {
+      "hp": 2578, "mana": 460, "physical_attack": 119, "magic_power": 0,
+      "physical_defense": 18, "magic_defense": 15, "attack_speed": 1.15,
+      "cooldown_reduction": 0, "critical_chance": 0, "movement_speed": 265,
+      "hp_regen": 7.8, "mana_regen": 4.0, "physical_pen": 0, "magic_pen": 0,
+      "lifesteal": 0, "spell_vamp": 0, "attack_range": 1.5, "resilience": 0,
+      "critical_damage": 200, "crit_dmg_reduction": 0, "healing_effect": 0, "healing_received": 0
     }
   }
 ]
