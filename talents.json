@@ -1,39 +1,21 @@
 [
-  {
-    "id": "thrill",
-    "name": "Thrill",
-    "tier": 1,
-    "description": "Memperoleh 16 Adaptive Attack (Physical/Magic Attack).",
-    "stats": { "attack": 16 }
-  },
-  {
-    "id": "swift",
-    "name": "Swift",
-    "tier": 1,
-    "description": "Memperoleh 10% Attack Speed tambahan.",
-    "stats": { "attack_speed": 10 }
-  },
-  {
-    "id": "vitality",
-    "name": "Vitality",
-    "tier": 1,
-    "description": "Memperoleh 225 Max HP tambahan.",
-    "stats": { "hp": 225 }
-  },
-  {
-    "id": "firmness",
-    "name": "Firmness",
-    "tier": 1,
-    "description": "Memperoleh 6 Physical & Magic Defense tambahan.",
-    "stats": { "defense": 6 }
-  },
-  {
-    "id": "inspire",
-    "name": "Inspire",
-    "tier": 1,
-    "description": "Memperoleh 5% Pengurangan Cooldown (CDR).",
-    "stats": {}
-  },
+  { "id": "swift", "name": "Swift", "tier": 1, "description": "Attack Speed +10%", "stats": { "attack_speed": 10 } },
+  { "id": "firmness", "name": "Firmness", "tier": 1, "description": "Def fisik & magis +6", "stats": { "physical_defense": 6, "magic_defense": 6 } },
+  { "id": "fatal", "name": "Fatal", "tier": 1, "description": "Crit Chance +5% & Crit Damage +10%", "stats": { "critical_chance": 5, "critical_damage": 10 } },
+  { "id": "vitality", "name": "Vitality", "tier": 1, "description": "Max HP +225", "stats": { "hp": 225 } },
+  { "id": "rupture", "name": "Rupture", "tier": 1, "description": "Penetrasi Fisik & Magis +5", "stats": { "physical_pen": 5, "magic_pen": 5 } },
+  { "id": "inspire", "name": "Inspire", "tier": 1, "description": "Cooldown Reduction +5%", "stats": { "cooldown_reduction": 5 } },
+  
+  { "id": "festival_of_blood", "name": "Festival of Blood", "tier": 2, "description": "Spell Vamp +6%", "stats": { "spell_vamp": 6 } },
+  { "id": "tenacity", "name": "Tenacity", "tier": 2, "description": "Meningkatkan Defense saat HP rendah", "stats": { "physical_defense": 15, "magic_defense": 15 } },
+  { "id": "master_assassin", "name": "Master Assassin", "tier": 2, "description": "Damage +7% jika musuh sendirian", "stats": {} },
+  { "id": "wilderness_blessing", "name": "Wilderness Blessing", "tier": 2, "description": "Movement Speed +10% di area sungai", "stats": {} },
+  
+  { "id": "brave_smite", "name": "Brave Smite", "tier": 3, "description": "Skill damage memulihkan 4% Max HP", "stats": { "hp_regen": 4 } },
+  { "id": "killing_spree", "name": "Killing Spree", "tier": 3, "description": "Eliminasi memulihkan HP & menambah MS", "stats": { "movement_speed": 15 } },
+  { "id": "impure_rage", "name": "Impure Rage", "tier": 3, "description": "Skill damage memberikan bonus damage & pulihkan mana", "stats": { "mana_regen": 3 } },
+  { "id": "lethal_ignition", "name": "Lethal Ignition", "tier": 3, "description": "Multi-hit membakar musuh", "stats": {} }
+]
   {
     "id": "rupture",
     "name": "Rupture",
