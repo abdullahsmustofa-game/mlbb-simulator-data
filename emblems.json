@@ -1,0 +1,65 @@
+[
+  {
+    "id": "basic_common",
+    "name": "Basic Common",
+    "stats": {
+      "hp": 275,
+      "attack": 12,
+      "defense": 10
+    }
+  },
+  {
+    "id": "tank",
+    "name": "Tank Emblem",
+    "stats": {
+      "hp": 500,
+      "defense": 15,
+      "attack": 0
+    }
+  },
+  {
+    "id": "assassin",
+    "name": "Assassin Emblem",
+    "stats": {
+      "attack": 26,
+      "hp": 0,
+      "defense": 0
+    }
+  },
+  {
+    "id": "mage",
+    "name": "Mage Emblem",
+    "stats": {
+      "attack": 30,
+      "hp": 0,
+      "defense": 0
+    }
+  },
+  {
+    "id": "fighter",
+    "name": "Fighter Emblem",
+    "stats": {
+      "hp": 250,
+      "attack": 16,
+      "defense": 8
+    }
+  },
+  {
+    "id": "support",
+    "name": "Support Emblem",
+    "stats": {
+      "hp": 200,
+      "attack": 0,
+      "defense": 6
+    }
+  },
+  {
+    "id": "marksman",
+    "name": "Marksman Emblem",
+    "stats": {
+      "attack": 18,
+      "hp": 0,
+      "defense": 0
+    }
+  }
+]

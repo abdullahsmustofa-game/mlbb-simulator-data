@@ -1,0 +1,151 @@
+[
+  {
+    "id": "thrill",
+    "name": "Thrill",
+    "tier": 1,
+    "description": "Memperoleh 16 Adaptive Attack (Physical/Magic Attack).",
+    "stats": { "attack": 16 }
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "tier": 1,
+    "description": "Memperoleh 10% Attack Speed tambahan.",
+    "stats": { "attack_speed": 10 }
+  },
+  {
+    "id": "vitality",
+    "name": "Vitality",
+    "tier": 1,
+    "description": "Memperoleh 225 Max HP tambahan.",
+    "stats": { "hp": 225 }
+  },
+  {
+    "id": "firmness",
+    "name": "Firmness",
+    "tier": 1,
+    "description": "Memperoleh 6 Physical & Magic Defense tambahan.",
+    "stats": { "defense": 6 }
+  },
+  {
+    "id": "inspire",
+    "name": "Inspire",
+    "tier": 1,
+    "description": "Memperoleh 5% Pengurangan Cooldown (CDR).",
+    "stats": {}
+  },
+  {
+    "id": "rupture",
+    "name": "Rupture",
+    "tier": 1,
+    "description": "Memperoleh 5 Adaptive Penetration.",
+    "stats": { "attack": 5 }
+  },
+  {
+    "id": "fatal",
+    "name": "Fatal",
+    "tier": 1,
+    "description": "Memperoleh 3.5% Critical Chance & 5% Critical Damage.",
+    "stats": {}
+  },
+
+  {
+    "id": "seasoned_hunter",
+    "name": "Seasoned Hunter",
+    "tier": 2,
+    "description": "Kecepatan *jungling* meningkat. Damage ke Lord dan Turtle meningkat 15%.",
+    "stats": {}
+  },
+  {
+    "id": "tenacity",
+    "name": "Tenacity",
+    "tier": 2,
+    "description": "Saat HP di bawah 40%, memperoleh 15 Physical & Magic Defense tambahan.",
+    "stats": {}
+  },
+  {
+    "id": "master_assassin",
+    "name": "Master Assassin",
+    "tier": 2,
+    "description": "Saat hanya ada satu hero musuh di sekitar, damage meningkat sebesar 7%.",
+    "stats": {}
+  },
+  {
+    "id": "bargain_hunter",
+    "name": "Bargain Hunter",
+    "tier": 2,
+    "description": "Harga item di toko diskon sebesar 5% (Beli equipment lebih murah).",
+    "stats": {}
+  },
+  {
+    "id": "festival_of_blood",
+    "name": "Festival of Blood",
+    "tier": 2,
+    "description": "Memperoleh 6% Spell Vamp. Setiap *kill/assist* memberikan 0.5% tambahan (Maks 10%).",
+    "stats": {}
+  },
+  {
+    "id": "pull_yourself_together",
+    "name": "Pull Yourself Together",
+    "tier": 2,
+    "description": "Cooldown Battle Spell ( Flicker, Retri, dll) dan Aktif Item berkurang 15%.",
+    "stats": {}
+  },
+  {
+    "id": "wilderness_blessing",
+    "name": "Wilderness Blessing",
+    "tier": 2,
+    "description": "Memperoleh 10% Movement Speed tambahan di area Sungai dan Jungle.",
+    "stats": {}
+  },
+
+  {
+    "id": "impure_rage",
+    "name": "Impure Rage",
+    "tier": 3,
+    "description": "Memberikan damage dengan skill akan memberikan extra damage adaptif dan memulihkan Mana/HP.",
+    "stats": {}
+  },
+  {
+    "id": "quantum_charge",
+    "name": "Quantum Charge",
+    "tier": 3,
+    "description": "Memberikan damage dengan Basic Attack meningkatkan Movement Speed 30% dan memulihkan HP.",
+    "stats": {}
+  },
+  {
+    "id": "concussive_blast",
+    "name": "Concussive Blast",
+    "tier": 3,
+    "description": "Setelah Basic Attack, memberikan Area Magic Damage yang berskala dengan Max HP hero.",
+    "stats": {}
+  },
+  {
+    "id": "killing_spree",
+    "name": "Killing Spree",
+    "tier": 3,
+    "description": "Mengeliminasi hero musuh langsung memulihkan 8% HP dan meningkatkan 15% Movement Speed.",
+    "stats": {}
+  },
+  {
+    "id": "brave_smite",
+    "name": "Brave Smite",
+    "tier": 3,
+    "description": "Memberikan damage dengan skill ke musuh akan memulihkan 4% Max HP diri sendiri.",
+    "stats": {}
+  },
+  {
+    "id": "lethal_ignition",
+    "name": "Lethal Ignition",
+    "tier": 3,
+    "description": "Memberikan damage multi-hit berturut-turut akan membakar target dan memberikan damage besar.",
+    "stats": {}
+  },
+  {
+    "id": "war_cry",
+    "name": "War Cry",
+    "tier": 3,
+    "description": "Setelah memberikan 3 kali damage berturut-turut, semua damage meningkat 8% selama 6 detik.",
+    "stats": {}
+  }
+]
