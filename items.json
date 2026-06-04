@@ -1,70 +1,69 @@
 [
   {
-    "id": "blade_of_despair",
-    "name": "Blade of Despair",
-    "category": "Attack",
-    "tags": ["Burst"],
-    "stats": {
-      "physical_attack": 160,
-      "attack_speed": 5
-    }
+    "id": "blade_of_despair", "name": "Blade of Despair", "category": "Attack", "tags": ["Burst"],
+    "stats": { "physical_attack": 160, "movement_speed": 5 }
   },
   {
-    "id": "berserkers_fury",
-    "name": "Berserker's Fury",
-    "category": "Attack",
-    "tags": ["Critical", "Burst"],
-    "stats": {
-      "physical_attack": 65
-    }
+    "id": "berserkers_fury", "name": "Berserker's Fury", "category": "Attack", "tags": ["Critical", "Burst"],
+    "stats": { "physical_attack": 65, "critical_chance": 25, "critical_damage": 40 }
   },
   {
-    "id": "windtalker",
-    "name": "Windtalker",
-    "category": "Attack",
-    "tags": ["Attack Speed", "Critical"],
-    "stats": {
-      "attack_speed": 40
-    }
+    "id": "haas_claws", "name": "Haas' Claws", "category": "Attack", "tags": ["Lifesteal", "Critical"],
+    "stats": { "physical_attack": 30, "critical_chance": 20, "lifesteal": 25, "attack_speed": 15 }
   },
   {
-    "id": "haas_claws",
-    "name": "Haas's Claws",
-    "category": "Attack",
-    "tags": ["Lifesteal", "Critical", "Attack Speed"],
-    "stats": {
-      "physical_attack": 30,
-      "attack_speed": 15
-    }
+    "id": "windtalker", "name": "Windtalker", "category": "Attack", "tags": ["Attack Speed", "Critical"],
+    "stats": { "attack_speed": 40, "movement_speed": 20, "critical_chance": 10 }
   },
   {
-    "id": "malefic_roar",
-    "name": "Malefic Roar",
-    "category": "Attack",
-    "tags": ["Penetration"],
-    "stats": {
-      "physical_attack": 60
-    }
+    "id": "malefic_roar", "name": "Malefic Roar", "category": "Attack", "tags": ["Penetration"],
+    "stats": { "physical_attack": 60, "physical_pen": 20 }
   },
   {
-    "id": "holy_crystal",
-    "name": "Holy Crystal",
-    "category": "Magic",
-    "tags": ["Burst"],
-    "stats": {
-      "magic_attack": 100
-    }
+    "id": "holy_crystal", "name": "Holy Crystal", "category": "Magic", "tags": ["Burst"],
+    "stats": { "magic_power": 100 }
   },
   {
-    "id": "genius_wand",
-    "name": "Genius Wand",
-    "category": "Magic",
-    "tags": ["Penetration"],
-    "stats": {
-      "magic_attack": 75
-    }
+    "id": "glowing_wand", "name": "Glowing Wand", "category": "Magic", "tags": ["Burst"],
+    "stats": { "magic_power": 75, "hp": 400, "movement_speed": 5 }
   },
   {
+    "id": "concentrated_energy", "name": "Concentrated Energy", "category": "Magic", "tags": ["Lifesteal"],
+    "stats": { "magic_power": 70, "hp": 700, "spell_vamp": 20 }
+  },
+  {
+    "id": "divine_glaive", "name": "Divine Glaive", "category": "Magic", "tags": ["Penetration"],
+    "stats": { "magic_power": 65, "magic_pen": 40 }
+  },
+  {
+    "id": "oracle", "name": "Oracle", "category": "Defense", "tags": ["Ketahanan", "Pengurangan Cooldown"],
+    "stats": { "hp": 850, "magic_defense": 25, "cooldown_reduction": 10, "healing_received": 30 }
+  },
+  {
+    "id": "athenas_shield", "name": "Athena's Shield", "category": "Defense", "tags": ["Daya Tahan"],
+    "stats": { "hp": 900, "magic_defense": 62, "hp_regen": 4 }
+  },
+  {
+    "id": "antique_cuirass", "name": "Antique Cuirass", "category": "Defense", "tags": ["Daya Tahan"],
+    "stats": { "hp": 920, "physical_defense": 54, "hp_regen": 4 }
+  },
+  {
+    "id": "guardian_helmet", "name": "Guardian Helmet", "category": "Defense", "tags": ["Ketahanan"],
+    "stats": { "hp": 1550, "hp_regen": 20 }
+  },
+  {
+    "id": "warrior_boots", "name": "Warrior Boots", "category": "Movement", "tags": ["Daya Tahan"],
+    "stats": { "movement_speed": 40, "physical_defense": 22 }
+  },
+  {
+    "id": "tough_boots", "name": "Tough Boots", "category": "Movement", "tags": ["Daya Tahan"],
+    "stats": { "movement_speed": 40, "magic_defense": 22, "resilience": 30 }
+  },
+  {
+    "id": "magic_shoes", "name": "Magic Shoes", "category": "Movement", "tags": ["Pengurangan Cooldown"],
+    "stats": { "movement_speed": 40, "cooldown_reduction": 10 }
+  }
+]
     "id": "concentrated_energy",
     "name": "Concentrated Energy",
     "category": "Magic",
